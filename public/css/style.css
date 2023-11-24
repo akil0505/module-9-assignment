@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+.section-title {
+    text-align: center;
+    padding: 50px 0;
+}
+.section-title h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0 20px 10px;
+    border-bottom: 4px solid #D9D9D9;
+    display: inline-block;
+}
+.section-title h2 span{
+    color: #F86F03;
+}
+.cta-btn {
+    border-radius: 20px;
+    padding:5px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+
+/*header section */
+header {
+    max-height: 90px;
+    background-color: #170550;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top:0;
+    z-index: 9999;
+}
+.header .logo {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 26px;
+}
+.header ul {
+    margin-bottom: 0;
+}
+.header ul li {
+    display: inline-block;
+}
+.header ul li a{
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+    margin: 10px 0px;
+    padding: 10px 12px;
+    transition: .5s;
+    font-size: 18px;
+}
+.header ul li a:hover{
+    color: #F86F03;
+}
+.header ul li a:active{
+    color: #F86F03;
+}
+
+.header .cta-btn {
+    background-color: white;
+    color: #461959;
+    margin-right: auto;
+}
+.header .cta-btn:hover {
+    color: #fff;
+    background-color: #F86F03;
+}
+
+
+/*section hero */
+section.hero {
+    background-color: #31065A;
+}
+
+section.hero .img{
+    max-width: 577px;
+} 
+section.hero span{
+    font-size: 30px;
+    color: #F86F03;
+    font-weight: 600;
+    display: inline-block;
+} 
+section.hero h2{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+} 
+section.hero h4{
+    font-size: 35px;
+    color: white;
+} 
+section.hero p{
+    font-size: 20px;
+    color: white;
+} 
+.hero .cta-btn {
+    background-color: #F86F03;
+    color: #fff;
+    padding:5px 35px;
+    margin-right: auto;
+}
+.hero .cta-btn:hover {
+    background-color: #fff;
+    color: #F86F03;
+}
+
+section.hero .img img{
+    width: 100%;
+    height: auto;
+    background-position: center;
+} 
+
+
+/*section about me */
+.about {
+    background: #170550;
+    padding-bottom: 90px;
+}
+.about h3 {
+    color: white;
+    max-width: 307px;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 25px 0;
+}
+.about p {
+    font-style: 18px;
+    color: #fff;
+}
+.about .cta-btn {
+    color: #461959;
+    background-color: #fff;
+    margin-top: 30px;
+}
+.about .cta-btn:hover {
+    color: #fffeff;
+    background-color: #F86F03;
+    margin-top: 30px;
+}
+
+
+/* projects*/ 
+.projects {
+    background-color: #31065A;
+    padding-bottom: 90px;
+}
+
+.projects .single-portfolio {
+    position: relative;
+    margin-top: 30px;
+}
+.projects .project-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #AD5BFB60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    opacity: 0;
+    transition: .5s;
+}
+.projects .project-details p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+
+}
+.projects .single-portfolio:hover .project-details {
+    opacity: 1;
+}
+
+
+/*contact section */
+
+.contact  {
+    background-color: #170550;
+    padding-bottom: 80px;
+}
+.contact .single-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact .single-contact .icon{
+    max-width: 25px;
+    margin-right: 30px;
+}
+.contact .single-contact p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+.contact .contact-form .input-wrapper {
+    margin-top: 10px;
+}
+.contact .contact-form input {
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    padding:10px 20px;
+    background-color: #43366A;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+}
+.contact .contact-form textarea {
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    width: 100%;
+    padding:10px 20px;
+    background-color: #43366A;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+}
+
+.contact .contact-form ::placeholder {
+    color: white;
+}
+.contact .contact-form input#submit {
+    width: auto;
+    padding: 10px 70px;
+}
+
+/*footer */
+.footer {
+    background-color: #31065A;
+    padding: 20px 0;
+}
+.footer .social-icon a{
+    margin-right: 10px;
+}
+.footer .social-icon a img{
+    width: 20px;
+    height: 20px;
+}
+.footer p {
+    font-size: 20;
+    color: #fff;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 0;
+}
+
+
